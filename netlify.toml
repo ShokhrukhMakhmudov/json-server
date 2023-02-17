@@ -1,6 +1,4 @@
-[[products]]
- for = "/*"
- [products.values]
- Access-Control-Allow-Origin = "*"
- Access-Control-Allow-Methods = "*"
- Access-Control-Allow-Headers = "*"
+[[redirects]]
+  from = "/"
+  to = "/data.json"
+  status = 302
